@@ -3,6 +3,8 @@
 * Openshift Cluster Login
     ```bash
       oc login -u ${USER} -p {PASSWORD} ${CLUSTER}
+      # Create New Project
+      oc new-project [project name] --description [description] --display-name [dpname]
     ```
 * Htpasswd Oauth Create  
     - reference 
