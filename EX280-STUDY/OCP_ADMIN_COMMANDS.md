@@ -105,6 +105,16 @@
         * Reference
             - DOC > Application > Porjects > Config Project
             >  https://docs.openshift.com/container-platform/4.5/applications/projects/configuring-project-creation.html
+            - Network Policy 
+            - DOC > Networking > Network Policy > Defining a Default Network Policy
+            > https://docs.openshift.com/container-platform/4.5/networking/network_policy/default-network-policy.html
+            - Limit Range
+            - DOCK > Nodes > Working With Clusters > Setting Limit
+            > https://docs.openshift.com/container-platform/4.5/nodes/clusters/nodes-cluster-limit-ranges.html
+            - Resource Quota
+            - DOC > Applications > Quotas > Resource Quota 
+            > https://docs.openshift.com/container-platform/4.5/applications/quotas/quotas-setting-per-project.html
+            
         ```bash
           # Get Template
           oc adm create-bootstrap-projcet-template -o yaml > [File.yaml]
